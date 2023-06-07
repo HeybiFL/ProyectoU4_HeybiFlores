@@ -1,0 +1,237 @@
+@import url(../general.css);
+.rslides{
+   position: relative;
+   list-style: none;
+   overflow: hidden;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+   max-height: 650px;
+}
+.rslides li{
+   -webkit-backface-visibility: hidden;
+   position: absolute;
+   display: none;
+   width: 100%;
+   max-height: 100%;
+   left: 0;
+   top: 0;
+}
+.rslides li:first-child{
+   position: relative;
+   display: block;
+   float: left;
+}
+.rslides img{
+   display: block;
+   height: auto;
+   float: left;
+   width: 100%;
+   border: 0;
+   height: 100%;
+   object-fit: cover;
+   object-position: top center;
+}
+.filtroNegro{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.infoSlide{
+    position: absolute;
+    top: 20%; left: 7%;
+    max-width: 400px;
+    color: var(--blanco);
+    padding: 10px;
+}
+.infoSlide h2{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom:20px ;
+}
+.infoSlide p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom:20px;
+}
+.callbacks_container {
+    position: relative;
+    margin:auto;
+}
+.callbacks_container img{
+    height:100%;
+    object-fit:cover;
+}
+.callbacks_container ul {
+     margin:0px;
+}
+.callbacks_nav {
+    position: absolute;
+    top: 52%;
+    left: 50px;
+    opacity: 0.7;
+    z-index: 3;
+    text-indent: -9999px;
+    overflow: hidden;
+    text-decoration: none;
+    height: 50px;
+    width: 30px;
+    background: transparent url("../../images/flechas.png") no-repeat left top;
+    margin-top: -45px;
+    }
+  .callbacks_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 50px;
+}
+.spAbout{
+    padding: 30px 10px;
+}
+
+.contFoto1{
+    max-width: 50%;
+    padding: 10px;
+}
+.contFoto1 img{
+    width: 100%;
+    border: 0;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+#slider2 {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 0 50px 10px;
+}
+
+#slider2 .viewport {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.contButtons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+.buttons {
+    background: #C01313;
+    display: inline-block;
+    padding: 5px 50px;
+    background-color: var(--azulBajo);
+    color: var(--blanco);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.buttons:hover {
+    background: var(--azulMedio);
+}
+#slider2 .next {
+    right: 0;
+    left: auto;
+    top: 50%;
+}
+#slider2 .disable {
+    visibility: hidden;
+}
+
+#slider2 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+#slider2 .overview li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 40px;
+    height: 400px;
+    max-width: 1100px;
+    text-align: center;
+ }
+
+ #slider2 .overview li img {
+    width: 100%;
+ }
+.contImg figure{
+    width: 150px;
+    margin: auto;
+}
+.contImg figure img{
+    border-radius: 150px;
+    filter: grayscale();
+}
+.mensajeTestimonio{
+    font-size: 18px;
+}
+.galeria.isFlex{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria a{
+    display: inline-block;
+    max-width: 380px;
+    overflow: hidden;
+}
+.galeria a img{
+    width: 100%;
+    height: 100%;
+    scale: 104%;
+    transition: all 0.6s;
+}
+.filtroNegro.galery{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    padding: 10px;
+    transition: all 0.6s;
+    text-align: center;
+    color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.filtroNegro.galery h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.galeria a:hover img{
+    scale: 110%;
+}
+.galeria a:hover .filtroNegro.galery{
+   opacity: 1;
+}
+.lupaGalery{
+    position: absolute;
+    width: 100px; height: 100px;
+    top: calc(100% - 100px);
+    left: calc(100% - 100px);
+    transition: 0.8s;
+    clip-path: polygon(100% 100%, 0 100%, 100% 100%);
+}
+.iconLupa{
+    position: absolute;
+    font-size: 25px;
+    top: calc(100% - 40px);
+    left: 100%;
+    transition: all 1.3s;
+}
+.galeria a:hover .filtroNegro.galery .lupaGalery{
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+}
+.galeria a:hover .filtroNegro.galery .lupaGalery .iconLupa{
+    left: calc(100% - 40px);
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heybi Flores - Proyecto U4</title>
+    <link rel="stylesheet" href="css/desktop/HeaderFooter.css">
+    <link rel="stylesheet" href="css/phone/HeaderFooter.css">
+    <link rel="stylesheet" href="css/desktop/acerca.css">
+    <link rel="stylesheet" href="css/phone/acerca.css">
+    <link
+    rel='stylesheet'
+    href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'/>
+    <script src='https://kit.fontawesome.com/8ba1607faa.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script src="js/wow.min.js"></script>
+</head>
+<body>
+    <div class="modal" id="Modal">
+        <div class="info isRelative">
+            <i class='fa-solid fa-rectangle-xmark iconClose' id="btnClose"></i>
+            <h1>Hecha un vistazo a nuestras instalaciones</h1>
+            <iframe src="https://www.youtube.com/embed/66HtyOpnSmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="isFlex btnModal">
+                <a href="cita.html" class="btnAzul">Haz una cita</a>
+            </div>
+        </div>
+    </div>
+    <header class="isSticky">
+        <div class="bgGris contbgGris" id="bgGris">
+            <div class="ancho isFlex">
+                <div class="isFlex contInfoHeader">
+                    <div>
+                        <i class="fa-solid fa-phone isColorGrisBajo"></i>
+                        <span><a href="#" class="isColorWhite">1-800-1234-567</a> <a href="#" class="isColorWhite">1-800-6780-345</a></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">le18081087@merida.tecnm.mx</a>
+                    </div>
+                </div>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ancho isFlex contNav isRelative">
+            <figure class="isFlex">
+                <div class="iconMenu">
+                    <i class='fa-solid fa-bars' id="btnMenu"></i>
+                </div>
+                <img src="images/logoHeader.png" alt="Logo Alga Health">
+            </figure>
+            <nav class='menu' id='caja_menu'>
+               <ul>
+                    <li><a href='index.html'>Inicio</a></li>
+                    <li><a href='acerca.html'>Acerca</a></li>
+                    <li><a href='departamentos.html'>Departamentos</a></li>
+                    <li><a href='contactanos.html'>Contáctanos</a></li>
+               </ul>
+            </nav>
+            <div class="isFlex">
+                <div class="iconSearch">
+                    <i class="fa-solid fa-magnifying-glass" id="btnSearch"></i>
+                </div>
+                <div class="fieldSearch">
+                    <form action="#">
+                        <input type="text" id="" class="inputSearch" placeholder="Buscar...">
+                    </form>
+                </div>
+                <div class="iconMore">
+                    <i class="fa-solid fa-ellipsis-vertical" id="btnMore"></i>
+                </div>
+                <a href="cita.html" class="btnAzul">Hacer una cita</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="contAbout bgGrisLight">
+            <div class="cont isFlex ancho">
+                <div>
+                    <div class="titleSection center">
+                        <h2>nosotros</h2>
+                        <hr>
+                    </div>
+                    <p>Alfa Health comenzó con una visión: proporcionar atención médica excepcional y compasiva a nuestra comunidad. A lo largo de los años, hemos crecido y evolucionado, pero nuestro compromiso con la excelencia y el bienestar de nuestros pacientes sigue siendo el mismo</p>
+                   <a href="#" class="btnAzul" id="btnVideoModal">Conoce nuestras instalaciones</a>
+                </div>
+                <figure class="contFoto">
+                    <img src="images/doctoresIMG02.jpg" alt="Imagen de Freepik en Freepik">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ancho isFlex contAdventages">
+            <article class="adventage">
+                <div class="isFlex title">
+                    <i class="fa-solid fa-kit-medical isColorAzul"></i>
+                    <h2>Doctores cualificados</h2>
+                </div class="info">
+                <p>Nuestros doctores son expertos en su campo, brindando atención médica de calidad respaldada por conocimientos especializados y experiencia para el cuidado integral de nuestros pacientes.</p>
+            </article>
+            <article class="adventage">
+                <div class="isFlex title">
+                    <i class="fa-solid fa-stethoscope isColorAzul"></i>
+                    <h2>Equipos modernos</h2>
+                </div class="info">
+                <p>Equipos de última generación que nos permiten ofrecer diagnósticos precisos y tratamientos avanzados para garantizar la mejor atención médica a nuestros pacientes.</p>
+            </article>
+            <article class="adventage">
+                <div class="isFlex title">
+                    <i class="fa-solid fa-syringe isColorAzul"></i>
+                    <h2>Ayuda de emergencia</h2>
+                </div class="info">
+                <p>Estamos preparados para brindar ayuda inmediata y efectiva, las 24 horas del día, los 7 días de la semana, para abordar situaciones críticas y garantizar la seguridad y el bienestar de nuestros pacientes</p>
+            </article>
+            <article class="adventage">
+                <div class="isFlex title">
+                    <i class="fa-solid fa-thumbs-up isColorAzul"></i>
+                    <h2>Efoque individual</h2>
+                </div class="info">
+                <p>Comprendemos las necesidades únicas de cada paciente, brindando atención personalizada y diseñando planes de tratamiento adaptados para lograr los mejores resultados de salud</p>
+            </article>
+        </div>
+    </section>
+    <div class="contAncla bgAzul" id="btnAncla">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <main>
+            <div class="titleSection center">
+                <h2>Nuestro equipo</h2>
+                <hr>
+            </div>
+            <div class="ancho contDoctores isFlex">
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team1.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Sandra Ferguson</h3>
+                <p class="isColorGrisBajo">Médica</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team2.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Ronald Chen</h3>
+                <p class="isColorGrisBajo">Neurólogo</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team3.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Frances Watson</h3>
+                <p class="isColorGrisBajo">Pediatra</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team4.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Joe Myers</h3>
+                <p class="isColorGrisBajo">Cardiólogo</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team5.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Brenda Lopez</h3>
+                <p class="isColorGrisBajo">Oftalmóloga</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team6.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Deborah Stewart</h3>
+                <p class="isColorGrisBajo">Terapeuta</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team7.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Patrick Douglas</h3>
+                <p class="isColorGrisBajo">Cirujano general</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+            <article class="isFlex member wow animate__animated animate__zoomIn animate__delay-0.3s">
+                <figure>
+                    <img src="images/team/team8.jpg" alt="Doctor 1">
+                </figure>
+                <h3 class="isColorAzul">Ruth Marshall</h3>
+                <p class="isColorGrisBajo">Enfermera registrada</p>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+    <br><br>
+    <section class="bgAzul endMessage">
+        <div class="ancho">
+            <p>Somos un equipo de médicos y enfermeras listos para ayudarlo a estar más saludable. <a href="departamentos.html">Consulte nuestros departamentos</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="bgGris">
+            <div class="ancho isFlex contFooter">
+                <figure>
+                    <img src="images/logoFooter.png" alt="">
+                </figure>
+                <div>
+                    <p class="isColorGrisBajo">© 2023 All Rights Reserved. Privacy Policy</p>
+                </div>
+                <div class="isFlex">
+                    <div class="circleRedes">
+                        <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-facebook-f'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-twitter'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-instagram'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+        var currentUrl = window.location.href;
+        $('.menu a').each(function() {
+            if ($(this).prop('href') === currentUrl) {
+            $(this).addClass('active');
+            }
+        });
+        });
+        $('#btnMenu').click(function(){
+           $('#caja_menu').toggleClass('menuShow');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('#caja_menu').length && $(event.target).attr('id') !== 'btnMenu') {
+            $('#caja_menu').removeClass('menuShow');
+        }
+        });
+        $('#btnSearch').click(function(){
+           $('.fieldSearch').toggleClass('fieldSearchOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.fliedSearch').length && $(event.target).attr('id') !== 'btnSearch') {
+            $('.fieldSearch').removeClass('fieldSearchOpen');
+        }
+        });
+        $('#btnMore').click(function(){
+           $('.bgGris').toggleClass('bgGrisOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.bgGris').length && $(event.target).attr('id') !== 'btnMore') {
+            $('.bgGris').removeClass('bgGrisOpen');
+        }
+        });
+        $(document).ready(function() {
+            $('#btnAncla').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            });
+        });
+        new WOW().init();
+        var fondomodal = document.getElementById('Modal');
+        var btn = document.getElementById('btnVideoModal');
+        var cerrar = document.getElementById('btnClose'); //ID para cerrar el modal
+        //Mostrar el modal dando click en el boton
+        btn.onclick = function () {
+           fondomodal.style.display = 'flex';
+        };
+        //Cerrar el modal dando click en el boton
+        cerrar.onclick = function () {
+           fondomodal.style.display = 'none';
+        };
+        //Cerrar el modal dando click fuera de la ventana
+        window.onclick = function (event) {
+           if(event.target == fondomodal){
+               fondomodal.style.display = 'none';
+           }
+        };
+    </script>
+</body>
+</html>

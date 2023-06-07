@@ -1,0 +1,32 @@
+@import url(../general.css);
+.contForm{
+    padding: 30px;
+    width: 70%;
+    border-left: 1px var(--grisBajo) dashed;
+}
+.mainContact .lateral{
+    flex-direction: column;
+    padding: 10px;
+}
+.mainContact .lateral .bgGris{
+    padding: 20px;
+    color: var(--blanco);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    width: 100%;
+    padding: 10px;
+}
+.subtitle i{
+    color: var(--azulMedio);
+}
+.subtitle a{
+    display: block;
+    text-decoration: none;
+    color: var(--grisBajo)
+}

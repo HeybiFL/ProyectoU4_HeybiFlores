@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heybi Flores - Proyecto U4</title>
+    <link rel="stylesheet" href="css/desktop/HeaderFooter.css">
+    <link rel="stylesheet" href="css/phone/HeaderFooter.css">
+    <link rel="stylesheet" href="css/desktop/index.css">
+    <link rel="stylesheet" href="css/phone/index.css">
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src='https://kit.fontawesome.com/8ba1607faa.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
+    <script src="js/wow.min.js"></script>
+</head>
+<body>
+    <header class="isSticky" id="initPag">
+        <div class="bgGris contbgGris" id="bgGris">
+            <div class="ancho isFlex">
+                <div class="isFlex contInfoHeader">
+                    <div>
+                        <i class="fa-solid fa-phone isColorGrisBajo"></i>
+                        <span><a href="#" class="isColorWhite">1-800-1234-567</a> <a href="#" class="isColorWhite">1-800-6780-345</a></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">le18081087@merida.tecnm.mx</a>
+                    </div>
+                </div>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ancho isFlex contNav isRelative">
+            <figure class="isFlex">
+                <div class="iconMenu">
+                    <i class='fa-solid fa-bars' id="btnMenu"></i>
+                </div>
+                <img src="images/logoHeader.png" alt="Logo Alga Health">
+            </figure>
+            <nav class='menu' id='caja_menu'>
+               <ul>
+                    <li><a href='index.html'>Inicio</a></li>
+                    <li><a href='acerca.html'>Acerca</a></li>
+                    <li><a href='departamentos.html'>Departamentos</a></li>
+                    <li><a href='contactanos.html'>Contáctanos</a></li>
+               </ul>
+            </nav>
+            <div class="isFlex">
+                <div class="iconSearch">
+                    <i class="fa-solid fa-magnifying-glass" id="btnSearch"></i>
+                </div>
+                <div class="fieldSearch">
+                    <form action="#">
+                        <input type="text" id="" class="inputSearch" placeholder="Buscar...">
+                    </form>
+                </div>
+                <div class="iconMore">
+                    <i class="fa-solid fa-ellipsis-vertical" id="btnMore"></i>
+                </div>
+                <a href="cita.html" class="btnAzul">Hacer una cita</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="callbacks_container">
+            <ul class='rslides' id="slider1">
+                <li class="isRelative">
+                    <img src='images/DoctorSlideIndex1.jpg' alt='Foto de stefamerpik en Reepik'>
+                    <div class="filtroNegro"></div>
+                    <div class="infoSlide contInfoSlide1">
+                        <h2>Bienvenido a <span class="isMayus">Alfa Health</span></h2>
+                        <p>Nuestros clinica proporciona los mejores servicios a los residentes locales.</p>
+                        <a href="acerca.html" class="btnBlanco">Conoce más de nosotros</a>
+                    </div>
+                </li>
+                <li class="isRelative">
+                    <img src='images/DoctorSlideIndex2.png' alt='Foto de Racool_Studio en Reepik'>
+                    <div class="filtroNegro"></div>
+                    <div class="infoSlide contInfoSlide1">
+                        <h2>Doctores cualificados</h2>
+                        <p>Nuestros doctores proveen el más alto estándar de calidad para el cuidado de la salud.</p>
+                        <a href="acerca.html" class="btnBlanco">Conoce a nuestros doctores</a>
+                    </div>
+                </li>
+                <li class="isRelative">
+                    <img src='images/DoctorSlideIndex3.jpg' alt='Foto de Freepik en Reepik'>
+                    <div class="filtroNegro"></div>
+                    <div class="infoSlide contInfoSlide1">
+                        <h2>Departamentos Clínicos</h2>
+                        <p>Espacios especializados para brindar atención médica y servicios de salud.</p>
+                        <a href="departamentos.html" class="btnBlanco">Conoce nuestros departamentos</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="spAbout bgGrisLight">
+            <div class="isFlex ancho">
+                <figure class="contFoto1">
+                    <img src="images/doctoresIMG01.jpg" alt="Imagen de Freepik en Freepik">
+                </figure>
+                <div>
+                    <div class="titleSection">
+                        <h2>¿Qué es Alfa Health?</h2>
+                        <hr>
+                    </div>
+                    <p>Somos un centro médico comprometido con tu bienestar y salud. Nuestro equipo de expertos médicos altamente capacitados está aquí para brindarte la mejor atención y apoyo en todas tus necesidades médicas.</p>
+                    <p>Ofrecemos una amplia gama de servicios,y contamos con instalaciones modernas y equipamiento de última generación para garantizar una atención de calidad.</p>
+                    <p>Explora nuestro sitio web para obtener más información sobre nuestros servicios y reserva tu cita hoy mismo. ¡Tu salud es nuestra prioridad!</p>
+                    <div class="isFlex">
+                        <a href="acerca.html" class="btnBlancoAlter">Conoce más</a>
+                        <a href="contactanos.html" class="btnAzul">Pide información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contAncla bgAzul" id="btnAncla">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <br><br>
+    <main>
+        <div class="titleSection center">
+            <h2>Testimonios</h2>
+            <hr>
+        </div>
+        <div class="ancho">
+            <div id="slider2">
+                <div class="viewport">
+                    <ul class="overview">
+                        <li class="testimonio">
+                            <div class="contImg">
+                                <figure>
+                                    <img src="images/testimonio1.jpg" alt="Imagen Testimonio 1">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="mensajeTestimonio">Me hice una colonoscopía en Alfa Health. Desde que entré al centro me recibieron y trataron con calidez y respeto y fue la mejor experiencia. Si desea un buen consejo y tratamiento médico, este es definitivamente el lugar para ir. ¡Recomiendo altamente Alfa Health para cualquier necesidad médica!</p>
+                                <i class="fa-solid fa-quote-right isColorAzul"></i>
+                                <h3 class="isColorAzul">Philip Lawrence</h3>
+                                <p class="isColorGrisBajo">Paciente</p>
+                            </div>
+                        </li>
+                        <li class="testimonio">
+                            <div class="contImg">
+                                <figure>
+                                    <img src="images/testimonio2.jpg" alt="Imagen Testimonio 2">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="mensajeTestimonio">Me gustaría agradecer y felicitar al personal de Alfa Health, incluido el personal de pacientes ambulatorios, el personal de laboratorio y la división cardíaca durante mi estadía en sus instalaciones los días 9 y 10 de julio. Hiciste un gran trabajo al diagnosticar y tratar mi enfermedad, de la cual ni siquiera estaba segura. ¡Aprecio los servicios de primer nivel que brindaron!</p>
+                                <i class="fa-solid fa-quote-right isColorAzul"></i>
+                                <h3 class="isColorAzul">Debra Ortega</h3>
+                                <p class="isColorGrisBajo">Paciente</p>
+                            </div>
+                        </li>
+                        <li class="testimonio">
+                            <div class="contImg">
+                                <figure>
+                                    <img src="images/testimonio3.jpg" alt="Imagen Testimonio 3">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="mensajeTestimonio">Esta fue la primera vez que llevé a mis hijos aquí y todos estamos absolutamente satisfechos. Tiene un gran personal y el doctor Smith también fue genial, a partir de ahora le llevaré a mis hijos de forma permanente. Recomiendo encarecidamente a todo el personal de Alfa Health, ya que se preocuparon mucho por mí y mis hijos.</p>
+                                <i class="fa-solid fa-quote-right isColorAzul"></i>
+                                <h3 class="isColorAzul">Jose Gutierrez</h3>
+                                <p class="isColorGrisBajo">Paciente</p>
+                            </div>
+                        </li>
+                        <li class="testimonio">
+                            <div class="contImg">
+                                <figure>
+                                    <img src="images/testimonio4.jpg" alt="Imagen Testimonio 4">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="mensajeTestimonio">Estoy encantado con mi experiencia en la clínica Alfa Health. El personal médico fue profesional y amable, brindándome una atención de calidad. Obtuvimos resultados positivos y recomendaría esta clínica sin dudarlo.</p>
+                                <i class="fa-solid fa-quote-right isColorAzul"></i>
+                                <h3 class="isColorAzul">Jose Gutierrez</h3>
+                                <p class="isColorGrisBajo">Paciente</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contButtons">
+                    <a class="buttons prev" href="#"><i class="fas fa-arrow-left"></i> </a>
+                    <a class="buttons next" href="#"><i class="fas fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br><br>
+    <section>
+            <div class="titleSection center">
+                <h2>Nuestra Galeria</h2>
+                <hr>
+            </div>
+            <div class='galeria isFlex ancho'>
+                <a href='images/galery/foto1.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Atención médica de calidad'
+                rel='galery1'>
+                    <img src='images/galery/foto1.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Atención médica de calidad</h3>
+                        <p>Alfa Health brinda una amplia variedad de servicios y soluciones para el cuidado de la salud.</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href='images/galery/foto2.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Servicios de Salud Familiar'
+                rel='galery1'>
+                    <img src='images/galery/foto2.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Servicios de Salud Familiar</h3>
+                        <p>Cuidado de salud integral y personalizado para toda la familia en un solo lugar.</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href='images/galery/foto3.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Diagnósticos experimentados'
+                rel='galery1'>
+                    <img src='images/galery/foto3.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Diagnósticos experimentados</h3>
+                        <p>Nuestros diagnósticos están respaldados por una vasta experiencia y conocimientos especializados, brindando resultados precisos y confiables.</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href='images/galery/foto4.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Mejora constante'
+                rel='galery1'>
+                    <img src='images/galery/foto4.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Mejora constante</h3>
+                        <p>Nos esforzamos por la mejora constante, ofreciendo servicios de vanguardia y atención médica actualizada.</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href='images/galery/foto5.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Experiencia inigualable'
+                rel='galery1'>
+                    <img src='images/galery/foto5.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Experiencia inigualable</h3>
+                        <p>Experiencia inigualable en nuestro equipo médico, brindando atención de máxima calidad y conocimiento especializado.</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href='images/galery/foto6.jpg'
+                class='fancybox isRelative wow animate__animated animate__zoomIn animate__delay-0.3s'
+                title='Laboratorio químico'
+                rel='galery1'>
+                    <img src='images/galery/foto6.jpg' alt=''>
+                    <div class="filtroNegro galery isRelative">
+                        <h3>Laboratorio químico</h3>
+                        <p>Experiencia excepcional en nuestro laboratorio químico, donde ofrecemos análisis precisos y confiables con los más altos estándares de calidad</p>
+                        <div class="bgAzul lupaGalery isRelative">
+                            <i class="fa-solid fa-magnifying-glass iconLupa"></i>
+                        </div>
+                    </div>
+                </a>
+             </div>
+    </section>
+    <br><br>
+    <section class="bgAzul endMessage">
+        <div class="ancho">
+            <p>Somos un equipo de médicos y enfermeras listos para ayudarlo a estar más saludable. <a href="acerca.html">Conoce más sobre nosotros</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="bgGris">
+            <div class="ancho isFlex contFooter">
+                <figure>
+                    <img src="images/logoFooter.png" alt="">
+                </figure>
+                <div>
+                    <p class="isColorGrisBajo">© 2023 All Rights Reserved. Privacy Policy</p>
+                </div>
+                <div class="isFlex">
+                    <div class="circleRedes">
+                        <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-facebook-f'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-twitter'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-instagram'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+        var currentUrl = window.location.href;
+        $('.menu a').each(function() {
+            if ($(this).prop('href') === currentUrl) {
+            $(this).addClass('active');
+            }
+        });
+        });
+        $('#btnMenu').click(function(){
+           $('#caja_menu').toggleClass('menuShow');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('#caja_menu').length && $(event.target).attr('id') !== 'btnMenu') {
+            $('#caja_menu').removeClass('menuShow');
+        }
+        });
+        $('#btnSearch').click(function(){
+           $('.fieldSearch').toggleClass('fieldSearchOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.fliedSearch').length && $(event.target).attr('id') !== 'btnSearch') {
+            $('.fieldSearch').removeClass('fieldSearchOpen');
+        }
+        });
+        $('#btnMore').click(function(){
+           $('.bgGris').toggleClass('bgGrisOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.bgGris').length && $(event.target).attr('id') !== 'btnMore') {
+            $('.bgGris').removeClass('bgGrisOpen');
+        }
+        });
+        $(function () {
+            $("#slider1").responsiveSlides({
+                auto: false,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                $('.events').append("<li>after event fired.</li>");
+                }
+            });
+        });
+        $(document).ready(function(){
+			$('#slider2').tinycarousel({
+                display: 2
+            });
+		});
+        $(document).ready(function() {
+            $('#btnAncla').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            });
+        });
+        new WOW().init();
+    </script>
+</body>
+</html>

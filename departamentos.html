@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heybi Flores - Proyecto U4</title>
+    <link rel="stylesheet" href="css/desktop/HeaderFooter.css">
+    <link rel="stylesheet" href="css/phone/HeaderFooter.css">
+    <link rel="stylesheet" href="css/desktop/departamentos.css">
+    <link rel="stylesheet" href="css/phone/departamentos.css">
+    <script src='https://kit.fontawesome.com/8ba1607faa.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+</head>
+<body>
+    <header class="isSticky">
+        <div class="bgGris contbgGris" id="bgGris">
+            <div class="ancho isFlex">
+                <div class="isFlex contInfoHeader">
+                    <div>
+                        <i class="fa-solid fa-phone isColorGrisBajo"></i>
+                        <span><a href="#" class="isColorWhite">1-800-1234-567</a> <a href="#" class="isColorWhite">1-800-6780-345</a></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">le18081087@merida.tecnm.mx</a>
+                    </div>
+                </div>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ancho isFlex contNav isRelative">
+            <figure class="isFlex">
+                <div class="iconMenu">
+                    <i class='fa-solid fa-bars' id="btnMenu"></i>
+                </div>
+                <img src="images/logoHeader.png" alt="Logo Alga Health">
+            </figure>
+            <nav class='menu' id='caja_menu'>
+               <ul>
+                    <li><a href='index.html'>Inicio</a></li>
+                    <li><a href='acerca.html'>Acerca</a></li>
+                    <li><a href='departamentos.html'>Departamentos</a></li>
+                    <li><a href='contactanos.html'>Contáctanos</a></li>
+               </ul>
+            </nav>
+            <div class="isFlex">
+                <div class="iconSearch">
+                    <i class="fa-solid fa-magnifying-glass" id="btnSearch"></i>
+                </div>
+                <div class="fieldSearch">
+                    <form action="#">
+                        <input type="text" id="" class="inputSearch" placeholder="Buscar...">
+                    </form>
+                </div>
+                <div class="iconMore">
+                    <i class="fa-solid fa-ellipsis-vertical" id="btnMore"></i>
+                </div>
+                <a href="cita.html" class="btnAzul">Hacer una cita</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="contDep bgGrisLight">
+            <div class="cont isFlex ancho">
+                <figure class="contFoto">
+                    <img src="images/doctoresIMG03.jpg" alt="Imagen de Freepik en Freepik">
+                </figure>
+                <div>
+                    <div class="titleSection">
+                        <h2>Nuestros departamentos</h2>
+                        <hr>
+                    </div>
+                    <p>En Alfa Health, contamos con departamentos especializados donde expertos médicos ofrecen diagnóstico y tratamiento avanzado con enfoque en la salud y bienestar de nuestros pacientes</p>
+                    <p>Abarcamos una amplia gama de especialidades médicas donde brindamos servicios de calidad respaldados por profesionales altamente capacitados. Nos comprometemos a ofrecer un cuidado integral y personalizado en cada área para satisfacer las necesidades de nuestros pacientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contAncla bgAzul" id="btnAncla">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <main>
+        <article class="ancho bgGrisBajo">
+            <div class="titleDepto isFlex" id="artPediatria">
+                <h2>Pediatria</h2>
+                <i class="fa-solid fa-caret-right" id="caretPediatria"></i>
+            </div>
+            <div class="contDepto" id="deptoPediatria">
+                <div class="depto isFlex">
+                    <figure>
+                        <img src="images/deptos/depto1.jpg" alt="">
+                    </figure>
+                    <div class="info isFlex">
+                        <div class="cont">
+                            <i class="fa-solid fa-baby"></i>
+                        </div>
+                        <p>Nuestro departamento de Pediatría en Clínica Alfa Health está dedicado a brindar atención médica integral y especializada a los más pequeños. Nuestro equipo de pediatras altamente calificados se enfoca en el bienestar infantil, ofreciendo servicios preventivos, diagnóstico y tratamiento, asegurando un crecimiento saludable y un desarrollo óptimo para cada niño.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+        <article class="ancho bgGrisBajo">
+            <div class="titleDepto isFlex" id="artDentista">
+                <h2>Odontología</h2>
+                <i class="fa-solid fa-caret-right" id="caretDentista"></i>
+            </div>
+            <div class="contDepto" id="deptoDentista">
+                <div class="depto isFlex reverse">
+                    <figure>
+                        <img src="images/deptos/depto2.jpg" alt="">
+                    </figure>
+                    <div class="info isFlex">
+                        <div class="cont">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <p>Nuestro departamento de Odontología en Clínica Alfa Health está comprometido con la salud bucal de nuestros pacientes. Nuestros dentistas altamente capacitados ofrecen una amplia gama de servicios, desde limpiezas y tratamientos preventivos hasta procedimientos avanzados, utilizando tecnología de vanguardia para asegurar sonrisas saludables y brillantes.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+        <article class="ancho bgGrisBajo">
+            <div class="titleDepto isFlex" id="artCardiologia">
+                <h2>Cardiología</h2>
+                <i class="fa-solid fa-caret-right" id="caretCardiologia"></i>
+            </div>
+            <div class="contDepto" id="deptoCardiologia">
+                <div class="depto isFlex">
+                    <figure>
+                        <img src="images/deptos/depto3.jpg" alt="">
+                    </figure>
+                    <div class="info isFlex">
+                        <div class="cont">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <p>Nuestro departamento de Cardiología en Clínica Alfa Health cuenta con un equipo de especialistas altamente capacitados en el diagnóstico y tratamiento de enfermedades cardiovasculares. Utilizamos tecnología de vanguardia para realizar pruebas cardíacas precisas y ofrecer opciones de tratamiento personalizadas, priorizando la salud cardiovascular de nuestros pacientes.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+        <article class="ancho bgGrisBajo">
+            <div class="titleDepto isFlex" id="artTrauma">
+                <h2>TRAUMATOLOGIA</h2>
+                <i class="fa-solid fa-caret-right" id="caretTrauma"></i>
+            </div>
+            <div class="contDepto" id="deptoTrauma">
+                <div class="depto reverse isFlex">
+                    <figure>
+                        <img src="images/deptos/depto4.jpg" alt="">
+                    </figure>
+                    <div class="info isFlex">
+                        <div class="cont">
+                            <i class="fa-solid fa-bone"></i>
+                        </div>
+                        <p>Nuestro departamento de Cardiología en Clínica Alfa Health cuenta con un equipo de especialistas altamente capacitados en el diagnóstico y tratamiento de enfermedades cardiovasculares. Utilizamos tecnología de vanguardia para realizar pruebas cardíacas precisas y ofrecer opciones de tratamiento personalizadas, priorizando la salud cardiovascular de nuestros pacientes.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <br>
+    <section class="bgAzul endMessage">
+        <div class="ancho">
+            <p>Somos un equipo de médicos y enfermeras listos para ayudarlo a estar más saludable. <a href="cita.html">¡Haz una cita!</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="bgGris">
+            <div class="ancho isFlex contFooter">
+                <figure>
+                    <img src="images/logoFooter.png" alt="">
+                </figure>
+                <div>
+                    <p class="isColorGrisBajo">© 2023 All Rights Reserved. Privacy Policy</p>
+                </div>
+                <div class="isFlex">
+                    <div class="circleRedes">
+                        <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-facebook-f'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-twitter'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-instagram'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+        var currentUrl = window.location.href;
+        $('.menu a').each(function() {
+            if ($(this).prop('href') === currentUrl) {
+            $(this).addClass('active');
+            }
+        });
+        });
+        $('#btnMenu').click(function(){
+           $('#caja_menu').toggleClass('menuShow');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('#caja_menu').length && $(event.target).attr('id') !== 'btnMenu') {
+            $('#caja_menu').removeClass('menuShow');
+        }
+        });
+        $('#btnSearch').click(function(){
+           $('.fieldSearch').toggleClass('fieldSearchOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.fliedSearch').length && $(event.target).attr('id') !== 'btnSearch') {
+            $('.fieldSearch').removeClass('fieldSearchOpen');
+        }
+        });
+        $('#btnMore').click(function(){
+           $('.bgGris').toggleClass('bgGrisOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.bgGris').length && $(event.target).attr('id') !== 'btnMore') {
+            $('.bgGris').removeClass('bgGrisOpen');
+        }
+        });
+        $(document).ready(function() {
+            $('#btnAncla').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            });
+        });
+        $('#artPediatria').click(function() {
+            $('#deptoPediatria').slideToggle();
+            $('#caretPediatria').toggleClass('rotatePediatria');
+        });
+        $('#artDentista').click(function() {
+            $('#deptoDentista').slideToggle();
+            $('#caretDentista').toggleClass('rotateDentista');
+        });
+        $('#artCardiologia').click(function() {
+            $('#deptoCardiologia').slideToggle();
+            $('#caretCardiologia').toggleClass('rotateCardiologia');
+        });
+        $('#artTrauma').click(function() {
+            $('#deptoTrauma').slideToggle();
+            $('#caretTrauma').toggleClass('rotateTrauma');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heybi Flores - Proyecto U4</title>
+    <link rel="stylesheet" href="css/desktop/HeaderFooter.css">
+    <link rel="stylesheet" href="css/phone/HeaderFooter.css">
+    <link rel="stylesheet" href="css/desktop/cita.css">
+    <link rel="stylesheet" href="css/phone/cita.css">
+    <script src='https://kit.fontawesome.com/8ba1607faa.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.0.min.js'></script>
+</head>
+<body>
+    <header class="isSticky">
+        <div class="bgGris contbgGris" id="bgGris">
+            <div class="ancho isFlex">
+                <div class="isFlex contInfoHeader">
+                    <div>
+                        <i class="fa-solid fa-phone isColorGrisBajo"></i>
+                        <span><a href="#" class="isColorWhite">1-800-1234-567</a> <a href="#" class="isColorWhite">1-800-6780-345</a></span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">2130 Fulton Street, San Diego, CA 94117-1080 USA</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope isColorGrisBajo"></i>
+                        <a href="#" class="isColorWhite">le18081087@merida.tecnm.mx</a>
+                    </div>
+                </div>
+                <div class="isFlex contRedes">
+                    <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-facebook-f'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-twitter'></i>
+                    </a>
+                    <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class='fa-brands fa-instagram'></i>
+                    </a>
+                    <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ancho isFlex contNav isRelative">
+            <figure class="isFlex">
+                <div class="iconMenu">
+                    <i class='fa-solid fa-bars' id="btnMenu"></i>
+                </div>
+                <img src="images/logoHeader.png" alt="Logo Alga Health">
+            </figure>
+            <nav class='menu' id='caja_menu'>
+               <ul>
+                    <li><a href='index.html'>Inicio</a></li>
+                    <li><a href='acerca.html'>Acerca</a></li>
+                    <li><a href='departamentos.html'>Departamentos</a></li>
+                    <li><a href='contactanos.html'>Contáctanos</a></li>
+               </ul>
+            </nav>
+            <div class="isFlex">
+                <div class="iconSearch">
+                    <i class="fa-solid fa-magnifying-glass" id="btnSearch"></i>
+                </div>
+                <div class="fieldSearch">
+                    <form action="#">
+                        <input type="text" id="" class="inputSearch" placeholder="Buscar...">
+                    </form>
+                </div>
+                <div class="iconMore">
+                    <i class="fa-solid fa-ellipsis-vertical" id="btnMore"></i>
+                </div>
+                <a href="cita.html" class="btnAzul">Hacer una cita</a>
+            </div>
+        </div>
+    </header>
+    <section class="isRelative">
+        <figure class="contImgFondo">
+            <img src="images/cita.jpg" alt="Imagen de Freepik en Freepik.es">
+        </figure>
+        <form>
+            <div class="contFormCita">
+                <h1>Haz una Cita</h1>
+                <p>Ayuda profesional de emergencia las 24/7</p>
+                <select required class="fieldForm">
+                    <option value="#">Selecciona Departamento*</option>
+                    <option value="Pediatria">Pediatría</option>
+                    <option value="Odontologia">Odontología</option>
+                    <option value="Cardiologia">Cardiología</option>
+                    <option value="Traumatologia">Traumatología</option>
+                </select>
+                <input type="text" placeholder="Nombres" required class="fieldForm">
+                <input type="text" placeholder="Apellidos" class="fieldForm">
+                <input type="email" placeholder="Email*" required class="fieldForm">
+                <div class="isFlex">
+                    <input type="date" required class="fieldForm">
+                    <input type="time" required class="fieldForm">
+                </div>
+                <input type="submit" class="btnForm" value="Registrar Cita">
+            </div>
+        </form>
+    </section>
+    <div class="contAncla bgAzul" id="btnAncla">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <section class="contMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14905.437468099291!2d-89.64916731284174!3d20.9380787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5673552c3c1c1f%3A0x101a5dc3988d0834!2sCentro%20M%C3%A9dico%20del%20Sur%2C%20M%C3%A9rida%20Yucat%C3%A1n!5e0!3m2!1ses-419!2smx!4v1686107636228!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <br><br>
+    <section class="bgAzul endMessage">
+        <div class="ancho">
+            <p>Somos un equipo de médicos y enfermeras listos para ayudarlo a estar más saludable. <a href="index.html">Sigue explorando nuestro sitio web</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="bgGris">
+            <div class="ancho isFlex contFooter">
+                <figure>
+                    <img src="images/logoFooter.png" alt="">
+                </figure>
+                <div>
+                    <p class="isColorGrisBajo">© 2023 All Rights Reserved. Privacy Policy</p>
+                </div>
+                <div class="isFlex">
+                    <div class="circleRedes">
+                        <a href="https://www.facebook.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-facebook-f'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-twitter'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://twitter.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class='fa-brands fa-instagram'></i>
+                        </a>
+                    </div>
+                    <div class="circleRedes">
+                        <a href="https://mx.linkedin.com/" class="isColorWhite iconHeader" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function() {
+        var currentUrl = window.location.href;
+        $('.menu a').each(function() {
+            if ($(this).prop('href') === currentUrl) {
+            $(this).addClass('active');
+            }
+        });
+        });
+        $('#btnMenu').click(function(){
+           $('#caja_menu').toggleClass('menuShow');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('#caja_menu').length && $(event.target).attr('id') !== 'btnMenu') {
+            $('#caja_menu').removeClass('menuShow');
+        }
+        });
+        $('#btnSearch').click(function(){
+           $('.fieldSearch').toggleClass('fieldSearchOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.fliedSearch').length && $(event.target).attr('id') !== 'btnSearch') {
+            $('.fieldSearch').removeClass('fieldSearchOpen');
+        }
+        });
+        $('#btnMore').click(function(){
+           $('.bgGris').toggleClass('bgGrisOpen');
+        });
+        $(document).click(function(event) {
+        if (!$(event.target).closest('.bgGris').length && $(event.target).attr('id') !== 'btnMore') {
+            $('.bgGris').removeClass('bgGrisOpen');
+        }
+        });
+        $(document).ready(function() {
+            $('#btnAncla').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 'slow');
+            });
+        });
+    </script>
+</body>
+</html>

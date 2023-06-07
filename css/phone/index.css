@@ -1,0 +1,48 @@
+@media screen and (max-width:390px){
+   .rslides{
+      height: 400px;
+   }
+   .rslides li{
+      height: 400px;
+   }
+   .infoSlide{
+      top: 5%;
+      left: calc(100% - 100%);
+   }
+   .callbacks_nav{
+      top: calc(100% - 5%);
+      left: 30%;
+   }
+   .callbacks_nav.next{
+     right: 30%;
+   }
+   .spAbout .isFlex{
+      flex-direction: column;
+   }
+   .contFoto1{
+      max-width: 500px;
+   }
+   .contFoto1 img{
+      clip-path: polygon(0 1%, 100% 0%, 100% 82%, 53% 100%, 0 81%);
+   }
+     #slider2 .viewport{
+      height: 600px;
+   }
+   #slider2 .overview li {
+      padding: 10px;
+      width: 300px;
+      height: 600px;
+   }
+   .galeria a img{
+      scale: 110%;
+  }
+  .galeria a .filtroNegro.galery{
+     opacity: 1;
+  }
+  .galeria a .filtroNegro.galery .lupaGalery{
+      clip-path: polygon(100% 100%, 0 100%, 100% 0);
+   }
+   .galeria a .filtroNegro.galery .lupaGalery .iconLupa{
+    left: calc(100% - 40px);
+}
+}

@@ -1,0 +1,75 @@
+@import url(../general.css);
+.contDep{
+    padding: 30px;
+}
+.contFoto{
+    max-width: 600px ;
+}
+.contFoto img{
+    width: 100%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.titleDepto{
+    color: var(--blanco);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    font-size: 30px;
+}
+.titleDepto i{
+    font-size: 30px;
+}
+.contDepto{
+    display: none;
+}
+.depto{
+    border: 3px var(--grisBajo) solid;
+    background-color: var(--grisLight);
+}
+.depto figure{
+    width:50%px;
+    overflow: hidden;
+}
+.depto figure img{
+    width: 100%;
+    transform: scale(105%);
+}
+.depto .info.isFlex{
+    width: 100%;
+    flex-direction: column;
+}
+.depto .info .cont{
+    background-color: var(--azulMedio);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depto .info .cont i{
+    font-size: 50px;
+    color: var(--blanco);
+    transition: transform 0.5s;
+}
+.depto p{
+    margin: 10p
+}
+.depto.reverse{
+    flex-direction: row-reverse;
+}
+.rotatePediatria{
+    transition: transform 0.5s;
+    transform: rotate(90deg);
+}
+.rotateDentista{
+    transition: transform 0.5s;
+    transform: rotate(90deg);
+}
+.rotateCardiologia{
+    transition: transform 0.5s;
+    transform: rotate(90deg);
+}
+.rotateTrauma{
+    transition: transform 0.5s;
+    transform: rotate(90deg);
+}

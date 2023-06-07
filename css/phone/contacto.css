@@ -1,0 +1,15 @@
+@media screen and (max-width:390px){
+    .isFlex.mainContact{
+        flex-direction: column-reverse;
+    }
+    form .isFlex.cont{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .contForm{
+        padding: 30px;
+        width: 100%;
+        border: none;
+    }
+}

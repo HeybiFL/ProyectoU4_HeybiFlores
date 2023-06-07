@@ -1,0 +1,18 @@
+@media screen and (max-width:390px){
+    .cont.isFlex{
+        flex-direction:column;
+    }
+    .contFoto img{
+        clip-path: polygon(0 0, 100% 0%, 100% 74%, 53% 100%, 0 74%);
+    }
+    .depto{
+        flex-direction: column;
+    }
+    .depto.reverse{
+        flex-direction: column;
+    }
+    .depto .info{
+        padding: 10px;
+        width: 100%;
+    }
+}

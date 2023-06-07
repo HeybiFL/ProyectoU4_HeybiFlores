@@ -1,0 +1,10 @@
+@media screen and (max-width:390px){
+    .contImgFondo{
+        display: none;
+    }
+    .contFormCita{
+        position: static;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@300;400;500&display=swap');
+:root{
+    --blanco: #FFFFFF;
+    --negro: #000000;
+    --grisOscuro: #3D3D3D;
+    --grisBajo: #838386;
+    --grisLight: #F2F3F9;
+    --azulBajo: #008AE3;
+    --azulMedio: #007ACA;
+    --azulFuerte: #0C1DF0;
+    --fontColor: #333;
+    --aqua: #0CF0D1;
+    --rojo: #800000;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'lato';
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--fontColor);
+}
+header{
+    background-color: var(--blanco);
+    top:-40px;
+    z-index: 5000;
+}
+h1, h2, h3{
+    font-family: 'oswald';
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+p{
+    margin-bottom: 10px;
+}
+/* CSS CLASES GENERALES */
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.isFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.bgGris{
+    background-color: var(--grisOscuro);
+}
+.bgGrisBajo{
+    background-color:  var(--grisBajo);
+}
+.bgGrisLight{
+    background-color:  var(--grisLight);
+}
+.bgAzul{
+    background-color: var(--azulBajo);
+}
+.isColorGrisBajo{
+    color: var(--grisBajo);
+}
+.isColorWhite{
+    color: var(--blanco);
+}
+.isColorAzul{
+    color: var(--azulBajo);
+}
+.btnAzul{
+    display: inline-block;
+    background-color: var(--azulBajo);
+    color: var(--blanco);
+    padding: 10px 50px;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-family: 'oswald';
+    letter-spacing: 1px;
+}
+.btnAzul:hover{
+    background-color: var(--azulMedio);
+}
+.isRelative{
+    position: relative;
+}
+.isSticky{
+    position: sticky;
+    display:block;
+}
+.isMayus{
+    text-transform: uppercase;
+}
+.btnBlanco{
+    display: inline-block;
+    border: 2px var(--blanco) solid;
+    color: var(--blanco);
+    padding: 15px 30px;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-family: 'oswald';
+    letter-spacing: 1px;
+}
+.btnBlanco:hover{
+    background-color: var(--azulBajo);
+    border: 2px var(--azulBajo) solid;
+    color: var(--blanco);
+}
+.titleSection{
+    margin-bottom: 20px;
+}
+
+.titleSection h2{
+    font-weight: lighter;
+    line-height: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.titleSection hr{
+    width: 100px;
+    border: 2px var(--aqua) solid;
+}
+
+.titleSection.center{
+    text-align: center;
+}
+.titleSection.center hr{
+    margin: auto;
+}
+.btnBlancoAlter{
+    display: inline-block;
+    border: 2px var(--grisBajo) solid;
+    color: var(--negro);
+    padding: 10px 30px;
+    border-radius: 60px;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-family: 'oswald';
+    letter-spacing: 1px;
+}
+.btnBlancoAlter:hover{
+    background-color: var(--blanco);
+}
+.contAncla{
+    position: absolute;
+    z-index: 2000;
+    left: calc(100% - 45px);
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    position: sticky;
+    top: 90%;
+    border: 1px var(--grisBajo) solid;
+}
+.endMessage{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: var(--blanco);
+}
+.endMessage p a{
+   color: var(--blanco);
+   font-weight: bold;
+}
+.endMessage p a:hover{
+    color: var(--grisOscuro);
+ }
+ .contMap iframe{
+    width: 100%;
+    height: 300px;
+}
+.fieldForm{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: 1px var(--grisBajo) solid;
+    border-radius: 60px;
+}
+.textareaForm{
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.btnForm{
+    padding: 15px 100px;
+    background-color: var(--azulMedio);
+    color: var(--blanco);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.btnForm:hover{
+    background-color: var(--grisBajo);
+}
+@media screen and (max-width:390px){
+    .contAncla{
+        top: 90%;
+    }
+    header{
+        top: 0;
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:390px){
+    .cont.isFlex{
+        flex-direction:column-reverse;
+    }
+    .contFoto img{
+        clip-path: polygon(0 0, 100% 0%, 100% 74%, 53% 100%, 0 74%);
+    }
+    .contAdventages{
+        flex-direction: column;
+    }
+}

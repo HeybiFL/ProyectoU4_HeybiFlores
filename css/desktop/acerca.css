@@ -1,0 +1,94 @@
+@import url(../general.css);
+.contAbout{
+    padding: 30px;
+}
+.contFoto{
+    max-width: 600px ;
+}
+.contFoto img{
+    width: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    z-index: 5100;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal .info{
+    padding: 30px;
+    max-width: 1000px;
+    height: 500px;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.modal .info iframe{
+    width: 100%;
+    height: 90%;
+}
+.iconClose{
+    position: absolute;
+    top: 0;
+    font-size: 25px;
+    left: calc(100% - 40px);
+    color: var(--rojo);
+}
+.btnModal{
+    justify-content: center;
+}
+.contAdventages{
+    padding: 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.adventage{
+    padding: 20px;
+    max-width: 250px ;
+    height: 350px;
+    box-shadow: 3px 0px 10px var(--grisBajo);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.adventage .title{
+    justify-content: center;
+    font-size: 20px;
+}
+.adventage .title i{
+    font-size: 40px;
+}
+.adventage .title h2{
+    text-transform: uppercase;
+    line-height: 35px;
+}
+.contDoctores{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.member{
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.member figure{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    overflow: hidden;
+}
+.member img{
+    width: 100%;
+}
+.member .contRedes a{
+    color: var(--grisBajo);
+}
